@@ -1,0 +1,6 @@
+mcp>=1.27.1
+anthropic>=0.103.1
+sentence-transformers>=3.0.0
+scikit-learn>=1.6.0
+numpy>=2.0.0
+anyio>=4.5.0
