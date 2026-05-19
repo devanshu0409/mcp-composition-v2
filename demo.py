@@ -187,7 +187,7 @@ async def main() -> None:
 
     registry_params = StdioServerParameters(
         command=sys.executable,
-        args=["-m", "mcomp"],
+        args=["-m", "src"],
         env={**os.environ, "MCOMP_SERVERS": servers_json},
     )
 
